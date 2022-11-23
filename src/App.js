@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
 import RandomName from "./RandomName";
+import Square from "./Square";
+import Input from "./Input";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <h1>Hello!</h1>
       <RandomName />
+      <Square />
+      <Input />
     </div>
   );
 }
-
-export default App;
