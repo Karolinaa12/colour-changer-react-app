@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function Input() {
-  return <h2>Input</h2>;
+  return (
+    <form>
+      <input type="search" />
+      <input type="submit" value="search" />
+    </form>
+  );
 }
