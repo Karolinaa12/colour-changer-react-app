@@ -1,5 +1,10 @@
 import React from "react";
+import "./square.css";
 
 export default function Square() {
-  return <h2>Square</h2>;
+  return (
+    <section className="square">
+      <p>Color</p>
+    </section>
+  );
 }

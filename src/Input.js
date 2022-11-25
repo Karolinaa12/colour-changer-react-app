@@ -9,12 +9,16 @@ export default function Input() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    alert(`Searchin for ${color}`);
+    alert(`Searching for ${color}`);
   }
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="search" onChange={updateColor} />
+      <input
+        type="search"
+        placeholder="Add color name"
+        onChange={updateColor}
+      />
       <input type="submit" value="search" />
     </form>
   );
