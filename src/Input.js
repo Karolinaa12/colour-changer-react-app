@@ -19,7 +19,7 @@ export default function Input() {
         placeholder="Add color name"
         onChange={updateColor}
       />
-      <input type="submit" value="search" />
+      <input type="submit" value="search" className="btn btn-primary" />
     </form>
   );
 }
