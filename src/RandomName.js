@@ -1,4 +1,5 @@
 import React from "react";
+import "./RandomName.css";
 
 export default function RandomName() {
   const handleNameChange = () => {
