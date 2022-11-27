@@ -14,12 +14,24 @@ export default function Input() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="search"
-        placeholder="Add color name"
-        onChange={updateColor}
-      />
-      <input type="submit" value="search" className="btn btn-primary" />
+      <div className="row">
+        <div className="col-9">
+          <input
+            type="search"
+            placeholder="Add color name..."
+            className="form-control"
+            autoFocus="on"
+            onChange={updateColor}
+          />
+        </div>
+        <div className="col-3">
+          <input
+            type="submit"
+            value="search"
+            className="btn btn-primary w-100"
+          />
+        </div>
+      </div>
     </form>
   );
 }
