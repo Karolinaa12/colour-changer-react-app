@@ -7,11 +7,13 @@ import Input from "./Input";
 export default function App() {
   return (
     <div className="App">
-      <h1>
-        <RandomName />
-      </h1>
-      <Square />
-      <Input />
+      <div className="container">
+        <h1>
+          <RandomName />
+        </h1>
+        <Square />
+        <Input />
+      </div>
     </div>
   );
 }
