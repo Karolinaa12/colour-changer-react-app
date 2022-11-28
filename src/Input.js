@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Input.css";
 
 export default function Input() {
   const [color, setColor] = useState("");
@@ -25,11 +26,7 @@ export default function Input() {
           />
         </div>
         <div className="col-3">
-          <input
-            type="submit"
-            value="search"
-            className="btn btn-primary w-100"
-          />
+          <input type="submit" value="search" className="btn btn-dark" />
         </div>
       </div>
     </form>
