@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import RandomName from "./RandomName";
+import RandomGreeting from "./RandomGreeting";
 import Square from "./Square";
 import Input from "./Input";
 
@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>
-          <RandomName />
+          <RandomGreeting />
         </h1>
         <Square />
         <Input />
